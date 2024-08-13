@@ -1,0 +1,56 @@
+/* UpdateFlashcard.css */
+
+.update-flashcard-container {
+  background-color: black;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.update-flashcard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-flashcard-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-flashcard-container input,
+.update-flashcard-container button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.update-flashcard-container input:focus,
+.update-flashcard-container button:focus {
+  outline: none;
+  border-color: #555;
+}
+
+.update-flashcard-container button {
+  background-color: red;
+  cursor: pointer;
+}
+
+.update-flashcard-container button:hover {
+  background-color: #cc0000;
+}
+
+.update-flashcard-container .go-to-flashcards-button {
+  background-color: #555;
+  margin-top: 15px;
+}
+
+.update-flashcard-container .go-to-flashcards-button:hover {
+  background-color: #444;
+}

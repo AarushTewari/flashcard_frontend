@@ -1,0 +1,66 @@
+/* AddFlashcard.css */
+
+.add-flashcard-container {
+  background-color: black;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.add-flashcard-container h2 {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.add-flashcard-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-flashcard-container input,
+.add-flashcard-container select,
+.add-flashcard-container button {
+    
+  background-color: #333;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.add-flashcard-container input:focus,
+.add-flashcard-container select:focus,
+.add-flashcard-container button:focus {
+  outline: none;
+  border-color: #555;
+}
+
+.add-flashcard-container button {
+  align-self: center;
+  background-color: red;
+  cursor: pointer;
+}
+
+.add-flashcard-container button:hover {
+  background-color: #cc0000;
+}
+
+.add-flashcard-container .error {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.add-flashcard-container .go-to-flashcards-button {
+  background-color: #555;
+  margin-top: 40px;
+  align-self: center; /* Center align the button */
+  width: 100%; /* Ensure the button takes the full width */
+   /* Optional: limit the width of the button */
+}

@@ -1,0 +1,81 @@
+/* Login.css */
+
+.login-container {
+  background-color: #1c1c1c; /* Darker black for a sleek look */
+  color: white;
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.login-container input {
+  background-color: #2c2c2c; /* Slightly lighter for input fields */
+  color: white;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  align-self: center;
+  width: 93%;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.login-container button {
+  background-color: #2c2c2c; /* Slightly lighter for input fields */
+  color: white;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  align-self: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  width: 100%; /* Ensure full width */
+}
+
+.login-container input:focus,
+.login-container button:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.login-container button {
+  background-color: #d32f2f; /* Dark red */
+  cursor: pointer;
+  align-self: center;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.login-container button:hover {
+  background-color: #b71c1c; /* Lighter red for hover effect */
+}
+
+.login-container .error {
+  color: #f44336; /* Red color for error messages */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.login-container .register-link button {
+  background-color: #555;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container .register-link button:hover {
+  background-color: #444;
+}
